@@ -1,12 +1,13 @@
 <script>
-    import { metatags } from '@roxi/routify';
+  import { metatags } from '@roxi/routify';
+  import Intro from './_components/Intro.svelte';
 
-    metatags.title = 'cdj';
-    metatags.description = 'Description coming soon...';
+  metatags.title = 'Cornell Data Journal';
+  metatags.description = 'Cornell Data Journal Official Page';
 </script>
 
-<h2>Welcome</h2>
+<Intro/>
 
 <p>
-    Check out <a href="/about">about</a> and <a href="/articles">articles</a>
+  Check out <a href='/about'>about</a> and <a href='/articles'>articles</a>
 </p>
